@@ -11,7 +11,7 @@ import Theory from "./components/theory/theory";
 import Landing from "./MyComponents/Landing";
 import { useAuth } from "./contexts/AuthContext";
 import Visualisation from "./components/visualisation/visualisation.jsx";
-import { BrowserRouter, Route, NavLink, Link, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Interview from "./components/Interview/Interview";
 import Chatbot from "./components/Chatbot/Chatbot";
 
