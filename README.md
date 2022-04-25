@@ -1,1 +1,1 @@
-# VLearn-KJSCE-Hacks
+KJSCE Hack 6.0
