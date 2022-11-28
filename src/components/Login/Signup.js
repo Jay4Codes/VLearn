@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Login.css";
 import { db, auth } from "../../utils/init-firebase";
-import { useAuth } from "../../contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { collection, addDoc } from "firebase/firestore";
 import { createUserWithEmailAndPassword } from "firebase/auth";
@@ -10,7 +9,6 @@ export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [username, setUserName] = useState("");
-  const { register, currentUser } = useAuth();
   const [isSubmiting, setIsSubmiting] = useState(false);
   const userCollectionRef = collection(db, "users");
 

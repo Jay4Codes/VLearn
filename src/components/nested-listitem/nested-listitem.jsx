@@ -3,7 +3,7 @@ import { Collapse, ListItem, ListItemText, List } from "@mui/material";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 // import { useStylesNestedListItem } from "./nested-listitem.styles";
-import './nested.css';
+import "./nested.css";
 
 const NestedListItem = ({ name, subsection }) => {
   // router
@@ -31,12 +31,12 @@ const NestedListItem = ({ name, subsection }) => {
         {/* {open ? <ExpandLess /> : <ExpandMore />} */}
       </ListItem>
       <Collapse in={open} timeout="auto" unmountOnExit>
-        <List className='nested-custom2' component="div" disablePadding>
+        <List className="nested-custom2" component="div" disablePadding>
           {subsection.map((i, idx) => (
             <ListItem
               key={idx}
               button
-              className='nested-custom1'
+              className="nested-custom1"
               onClick={() => changeRoute(i.route)}
             >
               <ListItemText primary={i.name} />

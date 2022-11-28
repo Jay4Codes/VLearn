@@ -4,9 +4,7 @@ import avatar from "../images/pfp.png";
 import hori_logo from "../images/logo-text.png";
 
 import { useAuth } from "../contexts/AuthContext";
-import {
-  useNavigate
-} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
   const { currentUser, logout } = useAuth();

@@ -390,7 +390,10 @@ function Profile() {
           </div>
         </div>
       </div>
-      <div classname="footerrrrrrrrrr" style={{transform: 'translate(0%, -270%)'}}>
+      <div
+        classname="footerrrrrrrrrr"
+        style={{ transform: "translate(0%, -270%)" }}
+      >
         <Footer />
       </div>
     </div>

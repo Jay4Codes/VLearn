@@ -5,7 +5,6 @@ import Header from "../../MyComponents/Header";
 import Footer from "../../MyComponents/Footer";
 import Cam from "./Cam";
 import interview from "../../images/interview.gif";
-import { useNavigate } from "react-router-dom";
 import {
   ChakraProvider,
   Box,
@@ -120,14 +119,14 @@ const Interview = () => {
                 Interviews are crucial moments in one's career. Theoretical
                 knowledge of interview questions isn't enough when you actually
                 face an interview. As the adage goes, practice makes perfect!
-                Mock interviews by VLearn give you the platform to
-                prepare, practice and experience firsthand how a real-life job
-                interview feels. Familiarizing yourself with the interview
-                environment beforehand in a relaxed and stress-free environment
-                gives you an edge over your peers. Too often fear takes over our
-                performance in job interviews. You can get Sentiment Analysis in
-                real-time and asynchronously (i.e., after the call has ended)
-                for your Interview. We use Symbl AI to provide you this service.
+                Mock interviews by VLearn give you the platform to prepare,
+                practice and experience firsthand how a real-life job interview
+                feels. Familiarizing yourself with the interview environment
+                beforehand in a relaxed and stress-free environment gives you an
+                edge over your peers. Too often fear takes over our performance
+                in job interviews. You can get Sentiment Analysis in real-time
+                and asynchronously (i.e., after the call has ended) for your
+                Interview. We use Symbl AI to provide you this service.
               </p>
               <img src={interview} className="interview-img" alt="" />
             </Box>

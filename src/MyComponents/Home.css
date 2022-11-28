@@ -1,11 +1,17 @@
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Open+Sans:400,400i,700");
+
 body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Open Sans", sans-serif;
   color: #000;
   font-weight: 400;
@@ -36,7 +42,10 @@ h6 {
   font-size: 16px;
 }
 
-p, li, blockquote, label {
+p,
+li,
+blockquote,
+label {
   font-size: 14px;
   letter-spacing: 0;
   line-height: 22px;
@@ -131,11 +140,25 @@ ul.rating li {
   font-size: 26px;
 }
 
-.shadow, .about .about-block .about-item, .screenshots .screenshot-slider .image img, .counter .counter-item, .team-member, .service .service-box, .founder img, .team-sm .image img, .post-sm, .job-list .block, .privacy .block, .user-login .block .image img, .coming-soon .block .count-down .syotimer-cell {
+.shadow,
+.about .about-block .about-item,
+.screenshots .screenshot-slider .image img,
+.counter .counter-item,
+.team-member,
+.service .service-box,
+.founder img,
+.team-sm .image img,
+.post-sm,
+.job-list .block,
+.privacy .block,
+.user-login .block .image img,
+.coming-soon .block .count-down .syotimer-cell {
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
-.transition, .main-nav, .main-nav .navbar-brand {
+.transition,
+.main-nav,
+.main-nav .navbar-brand {
   transition: .3s ease;
 }
 
@@ -269,7 +292,7 @@ a:hover {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .video .video-box a .icon:after {
@@ -287,7 +310,7 @@ a:hover {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   z-index: 500;
   display: block;
   height: 70px;
@@ -309,7 +332,7 @@ a:hover {
   height: 10.5vh;
 }
 
-.input-group-prepend span{
+.input-group-prepend span {
   height: 8vh;
   margin: 8px;
 }
@@ -380,7 +403,8 @@ a:hover {
   }
 }
 
-.hide-overflow, .service {
+.hide-overflow,
+.service {
   overflow: hidden;
 }
 
@@ -529,7 +553,8 @@ a:hover {
   padding-right: 15px;
 }
 
-.navbar-toggler:focus, .navbar-toggler:hover {
+.navbar-toggler:focus,
+.navbar-toggler:hover {
   outline: none;
 }
 
@@ -679,7 +704,9 @@ a:hover {
   text-align: center;
 }
 
-.call-to-action-app h2, .call-to-action-app p, .call-to-action-app a {
+.call-to-action-app h2,
+.call-to-action-app p,
+.call-to-action-app a {
   color: #fff !important;
 }
 
@@ -716,7 +743,8 @@ a:hover {
   margin: 0 auto;
 }
 
-.cta-hire h2, .cta-hire p {
+.cta-hire h2,
+.cta-hire p {
   margin-bottom: 20px;
 }
 
@@ -739,7 +767,8 @@ a:hover {
   }
 }
 
-.cta-community .content, .cta-community .action-button {
+.cta-community .content,
+.cta-community .action-button {
   justify-content: center;
 }
 
@@ -816,18 +845,21 @@ a:hover {
   right: -100px;
 }
 
-.testimonial-slider .slick-prev, .testimonial-slider .slick-next {
+.testimonial-slider .slick-prev,
+.testimonial-slider .slick-next {
   background: #fff;
   width: 65px;
   height: 55px;
   border-radius: 4px;
 }
 
-.testimonial-slider .slick-prev:hover:before, .testimonial-slider .slick-next:hover:before {
+.testimonial-slider .slick-prev:hover:before,
+.testimonial-slider .slick-next:hover:before {
   color: linear-gradient(230deg, #759bff, #843cf6);
 }
 
-.testimonial-slider .slick-prev:before, .testimonial-slider .slick-next:before {
+.testimonial-slider .slick-prev:before,
+.testimonial-slider .slick-next:before {
   color: #999999;
 }
 
@@ -864,7 +896,7 @@ a:hover {
   font-weight: 800;
 }
 
-.col-lg-8{
+.col-lg-8 {
   margin-left: -60px;
 }
 
@@ -977,7 +1009,8 @@ a:hover {
 .feature .feature-item {
   border-radius: 8px;
   padding: 8px;
-  box-shadow: 8px 8px 20px 2px rgba(160, 160, 160, 0.42);;
+  box-shadow: 8px 8px 20px 2px rgba(160, 160, 160, 0.42);
+  ;
 }
 
 .feature .app-screen {
@@ -1323,6 +1356,7 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+
   .feature .feature-content h2,
   .feature .feature-content p {
     text-align: center;
@@ -1488,7 +1522,7 @@ a:hover {
   border-radius: 4px;
   opacity: 0;
   -webkit-transform: translate3d(0, 10px, 0);
-          transform: translate3d(0, 10px, 0);
+  transform: translate3d(0, 10px, 0);
   transition: 0.3s;
   bottom: 20px;
 }
@@ -1510,7 +1544,7 @@ a:hover {
 .team-sm .image:hover .social-links {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .team-sm h3 {
@@ -2208,7 +2242,8 @@ a:hover {
   margin-top: 20px;
 }
 
-.user-login .block .content .new-acount p, .user-login .block .content .new-acount a {
+.user-login .block .content .new-acount p,
+.user-login .block .content .new-acount a {
   font-size: 14px;
 }
 

@@ -58,7 +58,10 @@ const Cam = () => {
         '
         <Webcam audio={false} ref={webcamRef} />
         {capturing ? (
-          <button className="btn-main-rounded cam-btns" onClick={handleStopCaptureClick}>
+          <button
+            className="btn-main-rounded cam-btns"
+            onClick={handleStopCaptureClick}
+          >
             Stop Capture
           </button>
         ) : (
@@ -70,7 +73,10 @@ const Cam = () => {
           </button>
         )}
         {recordedChunks.length > 0 && (
-          <button className="btn-main-rounded cam-btns down-btn" onClick={handleDownload}>
+          <button
+            className="btn-main-rounded cam-btns down-btn"
+            onClick={handleDownload}
+          >
             Download
           </button>
         )}

@@ -1,5 +1,5 @@
 import "./Home.css";
-import React, {useState} from "react";
+import React from "react";
 import Header2 from "./Header2";
 import Footer from "./Footer";
 import banner_img from "../images/title-img.png";
@@ -7,7 +7,7 @@ import news from "../images/news.png";
 import logo_concept from "../images/logo-no-bg.png";
 import gif from "../images/imageedit_2_4114114697.gif";
 import { useNavigate } from "react-router-dom";
-import Chatbot from '../components/Chatbot/Chatbot'
+import Chatbot from "../components/Chatbot/Chatbot";
 
 function Home() {
   const navigate = useNavigate();
@@ -19,9 +19,9 @@ function Home() {
   return (
     <div>
       <Header2 />
-{/*       <div className="chatbot">
+      <div className="chatbot">
         <Chatbot />
-      </div> */}
+      </div>
       <div className="wrapper">
         <section className="banner bg-1" id="home">
           <div className="container">
@@ -250,7 +250,7 @@ function Home() {
                       onClick={handleclicklogin}
                       style={{ color: "white", fontWeight: "bolder" }}
                     >
-                      Pay with MetaMask 
+                      Pay with MetaMask
                     </button>
                   </div>
                 </div>

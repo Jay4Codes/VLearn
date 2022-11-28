@@ -5,7 +5,6 @@ import {
   Button,
   Heading,
   LinkBox,
-  Text,
   LinkOverlay,
   HStack,
   Image,

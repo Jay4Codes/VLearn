@@ -13,7 +13,7 @@ import {
   Checkbox,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-import Header from '../../MyComponents/Header'
+import Header from "../../MyComponents/Header";
 
 const Contests = () => {
   const [value, setValue] = useState("all");
@@ -21,9 +21,9 @@ const Contests = () => {
   const [contest, setContest] = useState([]);
 
   function handleChange(e) {
-    if(e.target.value==="none"){
-      setValue("all")
-    }else{
+    if (e.target.value === "none") {
+      setValue("all");
+    } else {
       setValue(e.target.value);
     }
     console.log(e.target.value);
@@ -47,7 +47,7 @@ const Contests = () => {
       <>
         {contest.map((c, index) => {
           return checked ? (
-            c.in_24_hours=="Yes" && (
+            c.in_24_hours == "Yes" && (
               <Tr key={index}>
                 <Td>
                   <Link href={c.url}>{c.name}</Link>;

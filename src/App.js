@@ -15,7 +15,6 @@ import { Route, Routes } from "react-router-dom";
 import Interview from "./components/Interview/Interview";
 import Chatbot from "./components/Chatbot/Chatbot";
 
-
 function App() {
   const { currentUser } = useAuth();
   return (
@@ -53,15 +52,12 @@ function App() {
       <Route path="/login" element={<Login />} exact={true} />
       <Route path="/signup" element={<Signup />} exact={true} />
       {currentUser ? (
-        <Route path='/interviews' element={<Interview />} exact={true} />
+        <Route path="/interviews" element={<Interview />} exact={true} />
       ) : (
         <Route path="/interviews" element={<Landing />} exact={true} />
       )}
       <Route path="/home" element={<Home />} exact={true} />
-      
-      
-      
-      
+
       <Route
         exact
         path="/experiments/bblsort/theory"
@@ -92,9 +88,8 @@ function App() {
         path="/experiments/bblsort/visualisation"
         element={<Visualisation param="bblsort" />}
       />
-        
-        <Route path='/temp' element={<Chatbot />} exact={true} />
-      
+
+      <Route path="/temp" element={<Chatbot />} exact={true} />
     </Routes>
   );
 }
