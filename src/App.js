@@ -18,6 +18,7 @@ import Build from "./pages/Build";
 import Visualize from "./pages/Visualize";
 
 import Visualisations from "./components/Visualize/Visualisations";
+import Puzzle from "./components/Visualize/VizAlgorithms/15Puzzle/puzzle";
 
 import Explain from "./pages/Explain";
 
@@ -53,6 +54,8 @@ function App() {
 
           <Route path="/build" element={<Build />} />
           <Route path="/visualize" element={<Visualize />} />
+
+          <Route path="/visualize/puzzle" element={<Puzzle />} />
 
           {/* <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} /> */}
