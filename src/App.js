@@ -41,6 +41,8 @@ function App() {
     });
   }, []);
 
+  console.log(process.env.ALAN_KEY);
+
   return (
     <div className="App">
       <Router>
