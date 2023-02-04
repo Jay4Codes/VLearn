@@ -318,13 +318,13 @@ const Analyze = () => {
       <div>
         <img
           src="http://github-readme-streak-stats.herokuapp.com?user=jay4codes&theme=react&background=0d1117&border=666"
-          style={{ marginLeft: "100px" }}
+          style={{ marginLeft: "480px" }}
         />
-        <img
+        {/* <img
           src="https://github-readme-stats.vercel.app/api?username=jay4codes&show_icons=true&bg_color=0d1117&text_color=40cfcd&border_color=444"
           height="165"
           style={{ marginLeft: "360px" }}
-        />
+        /> */}
         <br />
         <br />
         <h3>

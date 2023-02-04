@@ -117,11 +117,11 @@ const Home = () => {
               desc="The complex Data Structures and Algorithms can be animated and their working can be viewed for better understanding."
               link="/visualize"
             />
-            <Card
+            {/* <Card
               title="AI Explains Code"
               desc="Helping developers break through the enigma of code.  It helps you in learning programming concepts and improves your coding skills."
               link="/explain"
-            />
+            /> */}
             <Card
               title="Your Analysis"
               desc="Analyze your coding patterns and get a detailed report of your coding skills. A step closer to open source contributions."
