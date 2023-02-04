@@ -56,9 +56,9 @@ const Header = () => {
                 <li className="scroll-to-section">
                   <Link to="/visualize">Visualize</Link>
                 </li>
-                <li className="scroll-to-section">
+                {/* <li className="scroll-to-section">
                   <Link to="/explain">Explain</Link>
-                </li>
+                </li> */}
                 {/* <li className="scroll-to-section">
                   <Link to="/discuss">Discuss</Link>
                 </li> */}

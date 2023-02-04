@@ -79,7 +79,7 @@ function App() {
 
           <Route path="/contests" element={<Contests />} />
           <Route path="/analyze" element={<Analyze />} />
-          <Route path="/explain" element={<Explain />} />
+          {/* <Route path="/explain" element={<Explain />} /> */}
         </Routes>
         <Footer />
       </Router>
