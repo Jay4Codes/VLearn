@@ -21,7 +21,7 @@ class CanvasSvg extends Component {
   };
 
   render() {
-    console.log(this.props.vertices.length);
+    // console.log(this.props.vertices.length);
     let off = this.props.offset;
     return (
       <div>

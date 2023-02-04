@@ -30,7 +30,7 @@ class EntryPoint extends Component {
   }
   getData = (e) => {
     if (e.target.value !== "") {
-      console.log(e.target.value);
+      // console.log(e.target.value);
       this.props.setUpper(e.target.value);
     } else {
       this.props.setUpper(100);

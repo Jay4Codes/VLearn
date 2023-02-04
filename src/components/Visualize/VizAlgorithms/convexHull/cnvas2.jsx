@@ -13,7 +13,7 @@ const Canvas2 = (props) => {
 
   useEffect(() => {
     let interval = null;
-    console.log("inside the timer", pos);
+    // console.log("inside the timer", pos);
     if (isAlgoLive) {
       if (pos >= points.length) {
         props.onAlgoStateChanged(false);
@@ -50,9 +50,9 @@ const Canvas2 = (props) => {
     setPoints([]);
     setPoints(props.dots);
     setIsAlgoLive(true);
-    console.log("changed", canvasDots.current);
+    // console.log("changed", canvasDots.current);
     if (canvasDots.current !== undefined) {
-      console.log("changed 2");
+      // console.log("changed 2");
       let ctx1 = canvasDots.current.getContext("2d");
       ctx1.clearRect(0, 0, canvasDimW, canvasDimH);
       ctx1.beginPath();
@@ -66,7 +66,7 @@ const Canvas2 = (props) => {
     }
   }, [props.dots]);
   useEffect(() => {
-    console.log("invoked");
+    // console.log("invoked");
     setLine(props.lines);
     setPos(0);
     setIsAlgoLive(false);

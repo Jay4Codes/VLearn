@@ -41,7 +41,7 @@ function App() {
     });
   }, []);
 
-  console.log(process.env.ALAN_KEY);
+  // console.log(process.env.REACT_APP_ALAN_KEY);
 
   return (
     <div className="App">

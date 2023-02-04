@@ -13,7 +13,7 @@ class Canvas extends Component {
     super(props);
     this.setState({ canvasWidth: window.innerWidth });
     this.setState({ canvasHeight: window.innerHeight - 10 });
-    console.log(window.innerWidth);
+    // console.log(window.innerWidth);
     this.myRef = React.createRef();
     this.canvasLineRef = React.createRef();
   }

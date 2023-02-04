@@ -38,7 +38,7 @@ export default function RangeSlider(props) {
     setValue(newValue);
   };
   const handleCommit = (event, newValue) => {
-    console.log(newValue);
+    // console.log(newValue);
   };
   useEffect(() => {
     setValue([props.lower, props.upper]);
